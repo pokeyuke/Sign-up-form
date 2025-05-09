@@ -1,3 +1,60 @@
+@font-face {
+    font-family: 'rubikitalic';
+    src: url('/fonts/webfontkit-20250509-043858/rubik-italic.woff2') format('woff2'),
+         url('/fonts/webfontkit-20250509-043858/rubik-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubiklight_italic';
+    src: url('/fonts/webfontkit-20250509-043858/rubik-lightitalic.woff2') format('woff2'),
+         url('/fonts/webfontkit-20250509-043858/rubik-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubikbold';
+    src: url('/fonts/webfontkit-20250509-043858/rubik-bold.woff2') format('woff2'),
+         url('/fonts/webfontkit-20250509-043858/rubik-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubikmedium';
+    src: url('/fonts/webfontkit-20250509-043858/rubik-medium.woff2') format('woff2'),
+         url('/fonts/webfontkit-20250509-043858/rubik-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('/fonts/webfontkit-20250509-043858/rubik-regular.woff2') format('woff2'),
+         url('fonts/webfontkit-20250509-043858/rubik-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root{
     /* CSS HEX */
 --walnut-brown: #575149ff;
@@ -23,14 +80,47 @@ body{
     background-color: var(--rose-quartz);
 }
 
+h1{
+    font-family: rubikmedium, sans-serif;
+    color: var(--);
+}
+
+.button_container{
+    display: flex;
+    
+}
+
+fieldset{
+    background-color: var(--mountbatten-pink);
+    border-radius: 5px;
+}
+
+.text_container{
+    font-size: 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
 p {
-    color: aquamarine;
+    font-family: rubikmedium;
+    color: rgb(234, 241, 239);
+    font-size: 20px;
+}
+
+form{
+    font-family: rubikregular;
 }
 
 .container{
+    padding: 100px 100px 100px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    justify-content: flex-start;
 }
 
 body{
@@ -65,4 +155,35 @@ bottom: 50%;
 .icon{
 width: 10vh;
 height: 10vh;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--mountbatten-pink);
+    color: white;
+    font-family: rubikbold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottom_text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
