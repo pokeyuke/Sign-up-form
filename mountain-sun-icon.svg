@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Tree/Mountain hybrid -->
+  <polygon points="0,-80 80,60 -80,60" fill="#7E7896"/>
+  <polygon points="-40,-20 20,60 -80,60" fill="#575149"/>
+  
+  <!-- Sun -->
+  <circle cx="40" cy="-40" r="20" fill="#B1ABC1"/>
+  <path d="M40,-70 L40,-80 M70,-40 L80,-40 M40,-10 L40,0 M10,-40 L0,-40" stroke="#B1ABC1" stroke-width="3"/>
+  
+  <!-- Ground -->
+  <path d="M-80,60 Q-40,70 0,60 Q40,70 80,60" fill="#6E5C51"/>
+  
+  <!-- Small details -->
+  <circle cx="-50" cy="30" r="5" fill="#050502" opacity="0.2"/>
+  <circle cx="-30" cy="40" r="4" fill="#050502" opacity="0.2"/>
+  <circle cx="-10" cy="35" r="6" fill="#050502" opacity="0.2"/>
+</svg>

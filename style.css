@@ -1,0 +1,68 @@
+:root{
+    /* CSS HEX */
+--walnut-brown: #575149ff;
+--mountbatten-pink: #7E7896ff;
+--black: #050502ff;
+--rose-quartz: #B1ABC1ff;
+--umber: #6E5C51ff;
+}
+
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--rose-quartz);
+}
+
+p {
+    color: aquamarine;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    display: flex ;
+    flex-direction: horizontal;
+}
+
+.im{
+    display: block;
+    width: 50vh;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+}
+
+.image_holder{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.blackground{
+position: absolute;
+background-color: rgba(112, 77, 77, 0.5);
+z-index: 3;
+display: flex;
+justify-content: center;
+width: 100%;
+bottom: 50%;
+}
+
+.icon{
+width: 10vh;
+height: 10vh;
+}

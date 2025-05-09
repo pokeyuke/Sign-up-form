@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Tree icon -->
+  <circle cx="0" cy="0" r="80" fill="#B1ABC1"/>
+  
+  <!-- Tree trunk -->
+  <rect x="-10" y="0" width="20" height="50" fill="#6E5C51"/>
+  
+  <!-- Tree foliage - triangular shape -->
+  <polygon points="0,-60 50,10 -50,10" fill="#7E7896"/>
+  <polygon points="0,-40 40,20 -40,20" fill="#575149"/>
+  
+  <!-- Small details -->
+  <circle cx="-20" cy="-20" r="5" fill="#050502" opacity="0.2"/>
+  <circle cx="15" cy="-10" r="4" fill="#050502" opacity="0.2"/>
+  <circle cx="0" cy="-30" r="3" fill="#050502" opacity="0.2"/>
+</svg>

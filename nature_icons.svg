@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Your color palette -->
+  <!-- Walnut Brown: #575149 -->
+  <!-- Mountbatten Pink: #7E7896 -->
+  <!-- Black: #050502 -->
+  <!-- Rose Quartz: #B1ABC1 -->
+  <!-- Umber: #6E5C51 -->
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F9F9F9"/>
+  
+  <!-- Left icon (Website icon/favicon) -->
+  <g transform="translate(200, 200)">
+    <!-- Tree icon for top-left window display -->
+    <circle cx="0" cy="0" r="80" fill="#B1ABC1"/>
+    
+    <!-- Tree trunk -->
+    <rect x="-10" y="0" width="20" height="50" fill="#6E5C51"/>
+    
+    <!-- Tree foliage - triangular shape -->
+    <polygon points="0,-60 50,10 -50,10" fill="#7E7896"/>
+    <polygon points="0,-40 40,20 -40,20" fill="#575149"/>
+    
+    <!-- Small details -->
+    <circle cx="-20" cy="-20" r="5" fill="#050502" opacity="0.2"/>
+    <circle cx="15" cy="-10" r="4" fill="#050502" opacity="0.2"/>
+    <circle cx="0" cy="-30" r="3" fill="#050502" opacity="0.2"/>
+  </g>
+  
+  <!-- Right icon (Main page display) -->
+  <g transform="translate(600, 200)">
+    <!-- Tree/Mountain hybrid for main page -->
+    <polygon points="0,-80 80,60 -80,60" fill="#7E7896"/>
+    <polygon points="-40,-20 20,60 -80,60" fill="#575149"/>
+    
+    <!-- Sun -->
+    <circle cx="40" cy="-40" r="20" fill="#B1ABC1"/>
+    <path d="M40,-70 L40,-80 M70,-40 L80,-40 M40,-10 L40,0 M10,-40 L0,-40" stroke="#B1ABC1" stroke-width="3"/>
+    
+    <!-- Ground -->
+    <path d="M-80,60 Q-40,70 0,60 Q40,70 80,60" fill="#6E5C51"/>
+    
+    <!-- Small details -->
+    <circle cx="-50" cy="30" r="5" fill="#050502" opacity="0.2"/>
+    <circle cx="-30" cy="40" r="4" fill="#050502" opacity="0.2"/>
+    <circle cx="-10" cy="35" r="6" fill="#050502" opacity="0.2"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="200" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#050502">Window Icon</text>
+  <text x="600" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#050502">Main Page Icon</text>
+</svg>
