@@ -7,9 +7,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'rubiklight_italic';
     src: url('/fonts/webfontkit-20250509-043858/rubik-lightitalic.woff2') format('woff2'),
@@ -18,9 +15,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'rubikbold';
@@ -31,9 +25,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'rubikmedium';
     src: url('/fonts/webfontkit-20250509-043858/rubik-medium.woff2') format('woff2'),
@@ -42,9 +33,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'rubikregular';
@@ -56,6 +44,7 @@
 }
 
 :root{
+    overflow: hidden;
     /* CSS HEX */
 --walnut-brown: #575149ff;
 --mountbatten-pink: #7E7896ff;
@@ -87,12 +76,14 @@ h1{
 
 .button_container{
     display: flex;
-    
+    width: 100%;
 }
 
 fieldset{
     background-color: var(--mountbatten-pink);
     border-radius: 5px;
+    width: 700px;
+    height: 200px;
 }
 
 .text_container{
@@ -112,14 +103,14 @@ p {
 
 form{
     font-family: rubikregular;
+    width: 100%;
 }
 
-.container{
+div.container{
     padding: 100px 100px 100px 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    align-items: flex-start;
     justify-content: flex-start;
 }
 
@@ -163,6 +154,16 @@ button{
     background-color: var(--mountbatten-pink);
     color: white;
     font-family: rubikbold;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(112, 78, 180);
+}
+
+button:active{
+    box-shadow: 2px 2px 5px #fc894d;
 }
 
 a{
@@ -186,4 +187,29 @@ textarea {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+form:invalid{
+    border-color: red;
 }
